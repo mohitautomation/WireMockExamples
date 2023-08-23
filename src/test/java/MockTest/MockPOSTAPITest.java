@@ -52,7 +52,7 @@ public class MockPOSTAPITest {
                 .contentType("application/json")
                 .body("{\"name\": \"Naveen\"}") // Corrected request body
                 .when()
-                .post("/api/endpoint");
+                .post("/api/users");
 
         response.then()
                 .statusCode(201)

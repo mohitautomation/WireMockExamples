@@ -2,5 +2,6 @@
 /Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/pojo/Person.java
 /Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/demo/GETCall.java
 /Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/mock/WireMockSetup.java
+/Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/mock/APIMocks.java
 /Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/demo/POSTCall.java
 /Users/naveenautomationlabs/Documents/workspace1/OMSUIAutomation/src/main/java/demo/GETCallWithHTTPClient.java

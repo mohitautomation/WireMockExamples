@@ -46,11 +46,11 @@ public class MockServerTest {
 
         APIMocks.getDummyUser();
 
-        Response response = RestAssured.get("/api/endpoint");
+        Response response = RestAssured.get("/api/users");
 
         RestAssured.given()
                         .when()
-                            .get("/api/endpoint")
+                            .get("/api/users")
                                 .then().log().all()
                                     .body("name", equalTo("Naveen"));
 
