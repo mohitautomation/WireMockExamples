@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/5</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 23 19:38:09 IST 2023</td>
+<td>Started on:</td><td>Wed Aug 23 22:23:07 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (822 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2229 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='MockTest.MockDeleteAPITest.setUp()'><b>setUp</b><br>Test class: MockTest.MockDeleteAPITest</td>
+<td title='MockTest.MockPutAPITest.setUp()'><b>setUp</b><br>Test class: MockTest.MockPutAPITest</td>
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -109,11 +109,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1559817679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1559817679'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1977493952", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1977493952'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,7 +174,7 @@ Caused by: java.net.BindException: Address already in use
 	... 47 more
 </pre></div></td>
 <td>0</td>
-<td>MockTest.MockDeleteAPITest@78691363</td></tr>
+<td>MockTest.MockPutAPITest@3590fc5b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -184,49 +184,44 @@ Caused by: java.net.BindException: Address already in use
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='MockTest.MockPutAPITest.setUp()'><b>setUp</b><br>Test class: MockTest.MockPutAPITest</td>
-<td></td>
-<td>-1692799689</td>
-<td>MockTest.MockPutAPITest@3590fc5b</td></tr>
-<tr>
 <td title='MockTest.MockQueryParamAPITest.setUp()'><b>setUp</b><br>Test class: MockTest.MockQueryParamAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockQueryParamAPITest@397fbdb</td></tr>
 <tr>
 <td title='MockTest.MockServerTest.mockSetup()'><b>mockSetup</b><br>Test class: MockTest.MockServerTest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockServerTest@41d477ed</td></tr>
 <tr>
 <td title='MockTest.MockPOSTAPITest.mockSetup()'><b>mockSetup</b><br>Test class: MockTest.MockPOSTAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockPOSTAPITest@33d512c1</td></tr>
 <tr>
 <td title='MockTest.MockPOSTAPITest.tearDown()'><b>tearDown</b><br>Test class: MockTest.MockPOSTAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockPOSTAPITest@33d512c1</td></tr>
 <tr>
 <td title='MockTest.MockDeleteAPITest.tearDown()'><b>tearDown</b><br>Test class: MockTest.MockDeleteAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockDeleteAPITest@78691363</td></tr>
 <tr>
 <td title='MockTest.MockPutAPITest.tearDown()'><b>tearDown</b><br>Test class: MockTest.MockPutAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockPutAPITest@3590fc5b</td></tr>
 <tr>
 <td title='MockTest.MockQueryParamAPITest.tearDown()'><b>tearDown</b><br>Test class: MockTest.MockQueryParamAPITest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockQueryParamAPITest@397fbdb</td></tr>
 <tr>
 <td title='MockTest.MockServerTest.tearDown()'><b>tearDown</b><br>Test class: MockTest.MockServerTest</td>
 <td></td>
-<td>-1692799689</td>
+<td>-1692809589</td>
 <td>MockTest.MockServerTest@41d477ed</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -241,7 +236,7 @@ Caused by: java.net.BindException: Address already in use
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -271,11 +266,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1165568071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1165568071'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871778598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871778598'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -342,7 +337,7 @@ Caused by: java.net.BindException: Address already in use
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -372,11 +367,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace775423528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace775423528'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1167522035", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1167522035'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -443,7 +438,7 @@ Caused by: java.net.BindException: Address already in use
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -473,11 +468,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1629759610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1629759610'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace462777594", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace462777594'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -544,7 +539,7 @@ Caused by: java.net.BindException: Address already in use
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -574,11 +569,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace209845522", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace209845522'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1372817363", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1372817363'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -645,7 +640,7 @@ Caused by: java.net.BindException: Address already in use
 <td><div><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -675,11 +670,11 @@ Caused by: java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
 	at org.eclipse.jetty.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
 	... 47 more
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace73608444", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace73608444'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace979822206", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace979822206'><pre>com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -151,7 +151,7 @@
                   <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -201,7 +201,7 @@ Caused by: java.net.BindException: Address already in use
                   <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -251,7 +251,7 @@ Caused by: java.net.BindException: Address already in use
                   <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -301,7 +301,7 @@ Caused by: java.net.BindException: Address already in use
                   <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -351,7 +351,7 @@ Caused by: java.net.BindException: Address already in use
                   <div class="stack-trace">com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 Caused by: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.jetty.JettyHttpServer.start(JettyHttpServer.java:198)
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:158)
@@ -444,24 +444,24 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGetWithQueryParams')
-data.setCell(0, 2, 'MockTest.MockQueryParamAPITest')
+data.setCell(0, 1, 'testMockPostApi')
+data.setCell(0, 2, 'MockTest.MockPOSTAPITest')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMockPostApi')
-data.setCell(1, 2, 'MockTest.MockPOSTAPITest')
+data.setCell(1, 1, 'testGetWithQueryParams')
+data.setCell(1, 2, 'MockTest.MockQueryParamAPITest')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testDeleteDummyUser')
 data.setCell(2, 2, 'MockTest.MockDeleteAPITest')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testMockGETAPI')
-data.setCell(3, 2, 'MockTest.MockServerTest')
+data.setCell(3, 1, 'testUpdateDummyUser')
+data.setCell(3, 2, 'MockTest.MockPutAPITest')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testUpdateDummyUser')
-data.setCell(4, 2, 'MockTest.MockPutAPITest')
+data.setCell(4, 1, 'testMockGETAPI')
+data.setCell(4, 2, 'MockTest.MockServerTest')
 data.setCell(4, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
@@ -495,8 +495,6 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockDeleteAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
@@ -504,93 +502,95 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockPutAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">801 ms</span>
+                <span class="method-start">2149 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockQueryParamAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">802 ms</span>
+                <span class="method-start">2170 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockServerTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">mockSetup</span>
-                <span class="method-start">802 ms</span>
+                <span class="method-start">2171 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockDeleteAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDeleteDummyUser</span>
-                <span class="method-start">815 ms</span>
+                <span class="method-start">2202 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockServerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testMockGETAPI</span>
-                <span class="method-start">817 ms</span>
+                <span class="method-start">2210 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockPutAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testUpdateDummyUser</span>
-                <span class="method-start">818 ms</span>
+                <span class="method-start">2212 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockQueryParamAPITest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetWithQueryParams</span>
-                <span class="method-start">818 ms</span>
+                <span class="method-start">2213 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockPOSTAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">mockSetup</span>
-                <span class="method-start">819 ms</span>
+                <span class="method-start">2214 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMockPostApi</span>
-                <span class="method-start">819 ms</span>
+                <span class="method-start">2215 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">819 ms</span>
+                <span class="method-start">2215 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockDeleteAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">819 ms</span>
+                <span class="method-start">2216 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockPutAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">820 ms</span>
+                <span class="method-start">2216 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockQueryParamAPITest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">820 ms</span>
+                <span class="method-start">2216 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">MockTest.MockServerTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">820 ms</span>
+                <span class="method-start">2217 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

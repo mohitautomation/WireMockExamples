@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 1, Errors: 0, Skipped: 14, Time elapsed: 1.101 s <<< FAILURE! -- in TestSuite
-MockTest.MockDeleteAPITest.setUp -- Time elapsed: 0.938 s <<< FAILURE!
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 13, Time elapsed: 2.718 s <<< FAILURE! -- in TestSuite
+MockTest.MockPutAPITest.setUp -- Time elapsed: 2.493 s <<< FAILURE!
 com.github.tomakehurst.wiremock.common.FatalStartupException: java.lang.RuntimeException: java.io.IOException: Failed to bind to /0.0.0.0:8085
 	at com.github.tomakehurst.wiremock.WireMockServer.start(WireMockServer.java:160)
 	at mock.WireMockSetup.createWireMockServer(WireMockSetup.java:15)
-	at MockTest.MockDeleteAPITest.setUp(MockDeleteAPITest.java:19)
+	at MockTest.MockPutAPITest.setUp(MockPutAPITest.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
