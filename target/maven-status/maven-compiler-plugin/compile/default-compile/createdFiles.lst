@@ -1,7 +1,0 @@
-demo/POSTCall.class
-mock/APIMocks.class
-demo/POSTCallWithHTTPClient.class
-demo/GETCall.class
-mock/WireMockSetup.class
-pojo/Person.class
-demo/GETCallWithHTTPClient.class
